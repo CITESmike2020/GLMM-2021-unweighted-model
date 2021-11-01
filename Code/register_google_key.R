@@ -1,4 +1,5 @@
 # use the key so that we can access GoogleMaps etc
+# for more detail go to link:
+# https://cran.r-project.org/web/packages/ggmap/readme/README.html
 
-register_google(key = "INSERT KEY HERE")
-register_google(key =  "AIzaSyDkrAuAJjn0ZbtuyKPXIzNih93ReCwptfg") # MK's API Key)
+register_google(key = "INSERT YOUR GOOGLE MAPS KEY HERE")
