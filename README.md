@@ -70,14 +70,14 @@ available. The steps for the Africa reports are given below; the steps for Asia 
 
 - Update the files in the *Data* directory.
 - Update the *read.africa.R* file in the *Code* directory to point to the new file names
-- Open and knit the *Africa.technical.update-2021.Rmd documents to create the html/pdf documents.
+- Open and knit the *Africa.technical.update-2021.Rmd* documents to create the html/pdf documents.
 This will take two runs, one for the *html* file and one for the *pdf* file.
 - Put the date of creation in the front of the created html/pdf files and move to the *ReportAndEstimates* directory.
 - Put the date of creation in the front of the created *report.africa.estimates.csv* file and
 move to the *ReportAndEstimates* directory.
 - Put the date of creation in the front of the created *.Rdata* files which saves the 
 posterior samples from the continental or subregional fits. You likely will NOT want to manage these files with GitHub because of their size.
--	To generate  the slope analysis report, based on the posterior samples, open and knit the "Slope_Analysis.Rmd” file to create the html document.
+-	To generate  the slope analysis report, based on the posterior samples, open and knit the *Slope_Analysis.Rmd* document to create the html/pdf documents.
 
 # Change Log
 
