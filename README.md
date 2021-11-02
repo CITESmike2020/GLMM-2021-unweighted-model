@@ -14,7 +14,8 @@ Various methodologies / models were considered. The details, including the compu
 
 The GLMM model with unweighted by local elephant population numbers was recommended by the TAG to replace the previous modelling approach that had been used in previous reports considered by the meetings of the Conference of Parties to CITES and CITES Standing Committee. 
 
-The Bayesian GLMM (unweighted)  approach was used to report PIKE trends in the MIKE report: PIKE trend analysis – Methodology and Results, released by the CITES Secretariat in November 2020.  <a href="https://cites.org/sites/default/files/MIKE/E-PIKE_Trend_Analysis_Aug2021.pdf">Click here to see the report.</a> 
+The Bayesian GLMM (unweighted)  approach was used to report PIKE trends in the MIKE report: <i>Monitoring the Illegal Killing of Elephants (MIKE)
+PIKE trend analysis 2003-2020</i>, released by the CITES Secretariat in November 2020.  <a href="https://cites.org/sites/default/files/MIKE/E-PIKE_Trend_Analysis_Aug2021.pdf">Click here to see the report.</a> 
 
 
 
