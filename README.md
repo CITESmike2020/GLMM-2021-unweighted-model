@@ -12,12 +12,11 @@ The MIKE Programme is a site-based system designed to monitor trends in the ille
 
 Various methodologies / models were considered. The details, including the computer code,  and trade-off between different approaches can be found in the following Git Hub repository: <a href="https://github.com/CITESmike2020/MIKE-GLMM">CITESmike2020/MIKE-GLMM</a> .
 
-The GLMM model with unweighted by local elephant population numbers was recommended by the TAG to replace the previous modelling approach that had been used in previous reports considered by the meetings of the Conference of Parties to CITES and CITES Standing Committee. 
+
+The analytical approach documented <a href="https://github.com/CITESmike2020/MIKE-GLMM">here</a> has been recommended by the MIKE-ETIS Technical Advisory Group (TAG) after the review of the MIKE analytical methodology initiated by the CITES Secretariat in collaboration with the MIKE-ETIS TAG. Various methodologies / models were considered and the use of a Bayesian generalised linear mixed model (GLMM) approach, with model results unweighted by local elephant population estimates were recommended by the TAG to replace the previous modelling approach that had been used in previous reports considered by the meetings of the Conference of Parties to CITES and CITES Standing Committee.  
 
 The Bayesian GLMM (unweighted)  approach was used to report PIKE trends in the MIKE report: <i>Monitoring the Illegal Killing of Elephants (MIKE)
 PIKE trend analysis 2003-2020</i>, released by the CITES Secretariat in November 2020.  <a href="https://cites.org/sites/default/files/MIKE/E-PIKE_Trend_Analysis_Aug2021.pdf">Click here to see the report.</a> 
-
-
 
 # MIKE - GLMM  (unweighted) Model for PIKE
 
@@ -94,4 +93,3 @@ posterior samples from the continental or subregional fits. You likely will NOT 
 
 #        
 <img src="images/EUFlagwithText2.png" width="20%" height="20%" style="display: block; margin: auto auto auto 0;" align="center"/>
-![image](https://user-images.githubusercontent.com/74291831/139799036-afc0315d-40ec-4792-a5d9-db02ed5a20de.png)
