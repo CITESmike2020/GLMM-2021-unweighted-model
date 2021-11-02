@@ -48,8 +48,7 @@ to analyze the MIKE data.
 
 # Structure of this repository
 You will have to insert your google key in the *register_google_key.R* file so that
-the programs can downloap maps of Africa and Asia.
-See ?register_google after loading the ggmap package.
+the programs can downloap maps of Africa and Asia. <br> See ?register_google after loading the ggmap package.
 
 There are several directories in this repository
 
