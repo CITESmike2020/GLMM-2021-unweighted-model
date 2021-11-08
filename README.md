@@ -7,8 +7,7 @@ PIKE TREND ANALYSIS USING A BAYESIAN GENERALISED LINEAR MIXED MODEL APPROACH IN 
 CITES MIKE Programme
 November  2021
 
-This repository contains R script used to analyse of data from the Monitoring the Illegal Killing of Elephants (MIKE) Programme to produce outputs for reports to the Convention for International Trade in Endangered Species of Wild Fauna and Flora (CITES).
-The MIKE Programme is a site-based system designed to monitor trends in the illegal killing of elephants, build management capacity and provide information to help range States make appropriate management and enforcement decisions. MIKE evaluates relative poaching levels based on the Proportion of Illegally Killed Elephants (PIKE), which is calculated as the number of illegally killed elephants found divided by the total number of elephant carcasses encountered, aggregated by site and across year.
+This repository contains R script used to analyse of data from the Monitoring the Illegal Killing of Elephants (MIKE) Programme to produce outputs for reports to the Convention for International Trade in Endangered Species of Wild Fauna and Flora (CITES).The MIKE Programme is a site-based system designed to monitor trends in the illegal killing of elephants, build management capacity and provide information to help range States make appropriate management and enforcement decisions. MIKE evaluates relative poaching levels based on the Proportion of Illegally Killed Elephants (PIKE), which is calculated as the number of illegally killed elephants found divided by the total number of elephant carcasses encountered, aggregated by site and across year.
 
 The analytical approach documented <a href="https://github.com/CITESmike2020/MIKE-GLMM">here</a> has been recommended by the MIKE-ETIS Technical Advisory Group (TAG) after the review of the MIKE analytical methodology initiated by the CITES Secretariat in collaboration with the MIKE-ETIS TAG. Various methodologies / models were considered and the use of a Bayesian generalised linear mixed model (GLMM) approach, with model results unweighted by local elephant population estimates were recommended by the TAG in <a href="https://cites.org/sites/default/files/MIKE/E-Technical_Report_Africa_summary.pdf"> 2020</a> to replace the previous modelling approach that had been used in previous reports considered by the meetings of the Conference of Parties to CITES and CITES Standing Committee.  
 
@@ -20,34 +19,20 @@ PIKE trend analysis 2003-2020</i>, released by the CITES Secretariat in November
 This GitHub sites contains code and reports to estimate yearly-trends in the Proportion of Illegally Killed Elephants (PIKE) based on data collected at
 MIKE (Monitoring Illegally Killed Elephants) monitoring sites in Africa and Asia since 2003.
 
-Briefly, MIKE data is collected on an annual basis in designated MIKE sites by law enforcement 
-and ranger patrols in the field and through other means. 
-When an elephant carcass is found, site personnel try to establish the cause of death and other details, 
-such as sex and age of the animal, status of ivory, and stage of decomposition of the carcass. 
-This information is recorded in standardized carcass forms, details of which are then submitted to the 
-MIKE Programme. 
-As expected, different sites report widely different numbers of carcasses, 
-as encountered carcass numbers are a function of: population abundance; natural mortality rates; 
-the detection probabilities of elephant carcasses in different habitats; 
-differential carcass decay rates; 
-levels of illegal killing; and levels of search effort and site coverage. 
-Because of these features of the survey data, the number of carcasses found is unlikely to be 
-proportional to the total mortality and trends in observed numbers of 
-illegally killed elephants may not be informative of the underlying trends. 
+Briefly, MIKE data is collected on an annual basis in designated MIKE sites by law enforcement and ranger patrols in the field and through other means. When an elephant carcass is found, site personnel try to establish the cause of death and other details, such as sex and age of the animal, status of ivory, and stage of decomposition of the carcass. This information is recorded in standardized carcass forms, details of which are then submitted to the MIKE Programme. As expected, different sites report widely different numbers of carcasses, as encountered carcass numbers are a function of: population abundance; natural mortality rates; the detection probabilities of elephant carcasses in different habitats; differential carcass decay rates; levels of illegal killing; and levels of search effort and site coverage. 
 
-Consequently, the observed proportion of illegally killed elephants (PIKE) as an index of 
-poaching levels has been used in the MIKE analysis in an attempt to account for 
-differences in patrol effort between sites and over time:
+The observed proportion of illegally killed elephants (PIKE) as an index of poaching levels has been used in the MIKE analysis in an attempt to account for differences in patrol effort between sites and over time:
+
 <p> <img src="images/PIKEFormula.png" width="40%" height="40%" style="display: block; margin: auto auto auto 0;" align="top"/> </p>
 
-where the subscripts *sy*  refer to site and year respectively.
+where the subscripts *sy*  refer to site and year respectively. PIKE is an index of poaching pressure and provides trends relating to the levels of poaching. It may be affected by several potential biases related to data quality, reporting rate, carcass detection probabilities, variation in natural mortality rates and other factors, and hence results need to be interpreted with caution.
 
-This GitHub site contains code and reports on using a Generalized Linear Mixed Model (GLMM-unweighted)
-to analyze the MIKE data. 
+This GitHub repository contains code and reports on using a Generalized Linear Mixed Model (GLMM-unweighted) to analyze the MIKE data to estimate PIKE trends at a continential and sub regional scale in Africa, and at a continential scale in Asia. 
+
 
 # Structure of this repository
 You will have to insert your google key in the *register_google_key.R* file so that
-the programs can downloap maps of Africa and Asia. <br> See ?register_google after loading the ggmap package.
+the programs can download maps of Africa and Asia. <br> See ?register_google after loading the ggmap package.
 
 There are several directories in this repository
 
