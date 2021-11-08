@@ -27,7 +27,7 @@ The observed proportion of illegally killed elephants (PIKE) as an index of poac
 
 where the subscripts *sy*  refer to site and year respectively. PIKE is an index of poaching pressure and provides trends relating to the levels of poaching. It may be affected by several potential biases related to data quality, reporting rate, carcass detection probabilities, variation in natural mortality rates and other factors, and hence results need to be interpreted with caution.
 
-This GitHub repository contains code and reports on using a Generalized Linear Mixed Model (GLMM-unweighted) to analyze the MIKE data to estimate yearly-trends in PIKE at continental and subregional scale.
+This GitHub repository contains code and reports on using a Generalized Linear Mixed Model (GLMM-unweighted) to estimate yearly-trends in PIKE at a continental and subregional scale based on data collected at MIKE monitoring sites in Africa and Asia.
 
 # Structure of this repository
 You will have to insert your google key in the *register_google_key.R* file so that
