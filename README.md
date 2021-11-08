@@ -7,18 +7,17 @@ PIKE TREND ANALYSIS USING A BAYESIAN GENERALISED LINEAR MIXED MODEL APPROACH IN 
 CITES MIKE Programme
 November  2021
 
-This repository contains R script for analyse of data from the Monitoring the Illegal Killing of Elephants (MIKE) Programme to produce outputs for reports to the Convention for International Trade in Endangered Species of Wild Fauna and Flora (CITES).
+This repository contains R script used to analyse of data from the Monitoring the Illegal Killing of Elephants (MIKE) Programme to produce outputs for reports to the Convention for International Trade in Endangered Species of Wild Fauna and Flora (CITES).
 The MIKE Programme is a site-based system designed to monitor trends in the illegal killing of elephants, build management capacity and provide information to help range States make appropriate management and enforcement decisions. MIKE evaluates relative poaching levels based on the Proportion of Illegally Killed Elephants (PIKE), which is calculated as the number of illegally killed elephants found divided by the total number of elephant carcasses encountered, aggregated by site and across year.
 
-The analytical approach documented <a href="https://github.com/CITESmike2020/MIKE-GLMM">here</a> has been recommended by the MIKE-ETIS Technical Advisory Group (TAG) after the review of the MIKE analytical methodology initiated by the CITES Secretariat in collaboration with the MIKE-ETIS TAG. Various methodologies / models were considered and the use of a Bayesian generalised linear mixed model (GLMM) approach, with model results unweighted by local elephant population estimates were recommended by the TAG to replace the previous modelling approach that had been used in previous reports considered by the meetings of the Conference of Parties to CITES and CITES Standing Committee.  
+The analytical approach documented <a href="https://github.com/CITESmike2020/MIKE-GLMM">here</a> has been recommended by the MIKE-ETIS Technical Advisory Group (TAG) after the review of the MIKE analytical methodology initiated by the CITES Secretariat in collaboration with the MIKE-ETIS TAG. Various methodologies / models were considered and the use of a Bayesian generalised linear mixed model (GLMM) approach, with model results unweighted by local elephant population estimates were recommended by the TAG in <a href="https://cites.org/sites/default/files/MIKE/E-Technical_Report_Africa_summary.pdf"> 2020</a> to replace the previous modelling approach that had been used in previous reports considered by the meetings of the Conference of Parties to CITES and CITES Standing Committee.  
 
 The Bayesian GLMM (unweighted)  approach is used to report PIKE trends in the MIKE report: <i>Monitoring the Illegal Killing of Elephants (MIKE)
-PIKE trend analysis 2003-2020</i>, released by the CITES Secretariat in November 2020.  <a href="https://cites.org/sites/default/files/MIKE/E-PIKE_Trend_Analysis_Aug2021.pdf">Click here to see the report.</a> 
+PIKE trend analysis 2003-2020</i>, released by the CITES Secretariat in November 2021.  <a href="https://cites.org/sites/default/files/MIKE/E-PIKE_Trend_Analysis_Aug2021.pdf">Click here to see the report.</a> 
 
 # MIKE - GLMM  (unweighted) Model for PIKE
 
-This GitHub sites contains code and reports to
-estimate yearly-trends in the Proportion of Illegally Killed Elephants (PIKE) from 
+This GitHub sites contains code and reports to estimate yearly-trends in the Proportion of Illegally Killed Elephants (PIKE) based on data collected at
 MIKE (Monitoring Illegally Killed Elephants) monitoring sites in Africa and Asia since 2003.
 
 Briefly, MIKE data is collected on an annual basis in designated MIKE sites by law enforcement 
