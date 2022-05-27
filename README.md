@@ -13,7 +13,7 @@ The analytical approach documented <a href="https://github.com/CITESmike2020/MIK
 
 The Bayesian GLMM (unweighted)  approach is used to report PIKE trends in the MIKE report: <i>Monitoring the Illegal Killing of Elephants (MIKE)
 PIKE trend analysis 2003-2020</i>, released by the CITES Secretariat in November 2021.  <a href="https://cites.org/sites/default/files/MIKE/E-PIKE_Trend_Analysis_Aug2021.pdf">Click here to see the report.</a> 
-<p> <img src="images/Screen Shot 2022-05-27 at 11.52.05 AM.png" width="60%" height="60%" style="display: block; margin: auto auto auto 0;" align="top"/> </p>
+<p> <img src="images/Screen Shot 2022-05-27 at 11.52.05 AM.png" width="10%" height="20%" style="display: block; margin: auto auto auto 0;" align="top"/> </p>
 
 
 
